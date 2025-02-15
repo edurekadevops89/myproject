@@ -1,9 +1,4 @@
 date
 ls
-this is for testing..
-i have used authentaion keys
-kiran changes to the files
-this is my nihanth update
-adding to see the conflict again
-kiran to see confilict
-to see the fetch demo
+pwd
+echo "hey you have suesssfully clonded the repo and excected the script"
