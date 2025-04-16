@@ -1,6 +1,5 @@
 name: Exploring cron on workflow
  on:
-     push
    schedule:
      - cron: "*/1 * * * *"
 jobs:
