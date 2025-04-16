@@ -1,6 +1,9 @@
-name: Exploring dispatch on workflow
+name: Exploring cron on workflow
+
 on:
-  workflow_dispatch:
+
+ workflow_dispatch:
+
 jobs:
   first_job:
     runs-on: ubuntu-latest
@@ -11,5 +14,5 @@ jobs:
       - name: List files
         run: ls
 
-      - name: Current date
+      - name: Read file
         run: date
