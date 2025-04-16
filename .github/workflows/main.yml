@@ -1,17 +1,19 @@
 name: Exploring cron on workflow
- on:
-     push
-   schedule:
-     - cron: "*/1 * * * *"
+
+on:
+  push:
+  schedule:
+    - cron: "*/1 * * * *"
+
 jobs:
-     first_job:
-         runs-on: ubuntu-latest
-         steps:
-         - name: Welcome message
-           run: echo "My first Github Actions Job"
- 
-         - name: List files
-           run: ls
- 
-         - name: Read file
-           run: date
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome message
+        run: echo "My first Github Actions Job"
+
+      - name: List files
+        run: ls
+
+      - name: Read file
+        run: date
