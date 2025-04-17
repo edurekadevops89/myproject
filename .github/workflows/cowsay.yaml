@@ -4,7 +4,7 @@ on:
    workflow_dispatch:
 
 jobs:
-   ascii_job:
+   cowsayjob:
      runs-on: ubuntu-latest
      steps:
      - name: Checkout Repo
@@ -18,6 +18,9 @@ jobs:
  
      - name: Test File Exists
        run: grep -i "dragon" dragon.txt
+
+     - name: read the drangon
+       run: cat dragon.txt
  
      - name: Read File
        run: cat script.sh
