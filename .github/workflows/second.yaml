@@ -1,4 +1,4 @@
-name: Exploring cron on workflow
+name: Exploring workflow dispatch
 
 on:
 
