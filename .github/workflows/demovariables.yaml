@@ -1,12 +1,13 @@
 name: Exploring Variables and Secrets
  
- on: push
- env:
+on: push
+
+env:
      CONTAINER_REGISTRY: docker.io
      DOCKER_USERNAME: saidevops8989
      IMAGE_NAME: github-actions-nginx    
- 
- jobs:
+  
+jobs:
    docker:
      runs-on: ubuntu-latest
      steps:
