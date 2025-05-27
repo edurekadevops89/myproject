@@ -1,5 +1,6 @@
 date
 date
+echo "this is to demo fetch and merge"
 ls
 pwd
 echo "hey you have suesssfully clonded the repo and excected the script"
