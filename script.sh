@@ -1,4 +1,5 @@
 date
+echo "hey hi koushik and mounika"
 date
 echo "this is to demo fetch and merge"
 ls
